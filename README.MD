@@ -4,7 +4,7 @@ Resulting fonts are not compatible with original fonts as they have different Un
 
 Just a little reminder that fonts do not support semi-transparency. It's either fully opaque, or fully transparent. All the fancy semi-transparent indicators will look like this (Note battery and wi-fi indicators):
 
-![image](https://user-images.githubusercontent.com/35058624/51192850-8727cf80-18f8-11e9-8db5-7bb20b503732.png)
+![Transparency Representation](https://raw.githubusercontent.com/Azumgi/Material-Icons-Complete/master/media/transparency_representation.jpg)
 
 
 # Project structure
@@ -73,4 +73,4 @@ Instruction for Windows users:
 If `FONT_FORMAT` is not set, all 6 font formats are generated.
 If `FONT_TYPE` is not set, all 6 font formats are generated for all 5 font types.
 
-**!!IMPORTANT!!**: There's a bug in font forge I could not get around. If you'll try to create `otf` or `woff` files for `Outlined` font type, FontForge will hang. It is caused by `call_end` and `movie_creation` glyphs. I don't know how to solve it.
+**!!IMPORTANT!!**: There's a bug in font forge I could not get around. If you'll try to create `otf` or `woff` files for `Outlined` font type, FontForge will hang. It is caused by `call_end` and `movie_creation` glyphs. I don't know how to solve it. Reported it [here](https://github.com/fontforge/fontforge/issues/3699).
